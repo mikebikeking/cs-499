@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33D3FF">
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone number"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="98dp"
+        tools:ignore="MissingConstraints">
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="MissingConstraints">
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="309dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="408dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="SMS Notifications"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+</androidx.constraintlayout.widget.ConstraintLayout>

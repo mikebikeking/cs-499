@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33D3FF">
+
+    <TableRow
+        android:id="@+id/Inventory Item"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#FEFEFE"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="153dp">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Inventory Item"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#FEFEFE"
+        android:hint="Message"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="77dp">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Inventory Item"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#FEFEFE"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="232dp">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Inventory Item"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#FEFEFE"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="311dp">
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/Inventory Item"
+        android:layout_width="414dp"
+        android:layout_height="45dp"
+        android:background="#FEFEFE"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <TableRow
+        android:id="@+id/Table Header"
+        android:layout_width="414dp"
+        android:layout_height="40dp"
+        android:background="#FEFEFE"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp">
+        <TextView
+             android:text="Inventory Time!"
+             android:gravity="center"
+             android:padding="10dp"
+             android:textStyle="bold" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="465dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
