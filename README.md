@@ -57,6 +57,7 @@ The primary challenge was linking the pages together within the app. I successfu
 <img width="571" alt="Screenshot 2024-10-18 170534" src="https://github.com/user-attachments/assets/0409f420-e061-4dfe-b0fa-acfcc3491734">
 
 I learned that even small mistakes in the initial app design can have a significant impact.
+While the visuals may be limited, the InventoryApp22 folder contains the backend code that represents the bulk of the project's development.
 
 
 
