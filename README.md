@@ -26,3 +26,16 @@ My goal is to leverage my technical skills, soft skills, and cybersecurity exper
 **Conclusion**
 
 This self-assessment has allowed me to reflect on my professional journey and identify my strengths and areas for development. I am confident in my ability to succeed in the tech industry, particularly in the field of cybersecurity. I am excited about the opportunities that lie ahead and am committed to continuous learning and professional growth.
+
+**Code Review of Original Project**
+**AndroidManifest.xml**
+The AndroidManifest.xml file is in good condition. I believe it correctly defines the application's basic information, including the main activity.
+**activity_main.xml**
+The layout in activity_main.xml could be improved. It uses absolute positioning, which is not ideal for flexibility and responsiveness. I will change to use ConstraintLayout properties for a better layout. The current layout only displays a welcome message, login fields, and buttons, so it might need more elements to represent the full functionality of the login screen.
+**inventory.xml**
+The inventory.xml layout also has similar issues with absolute positioning. The TableRow elements within the layout have IDs but lack content, making their purpose unclear. The buttons ("Add", "Scan", "Remove") also need more context to understand their functionality.
+**sms_notifications.xml**
+The sms_notifications.xml layout also uses absolute positioning and has elements with missing constraints. The layout includes an unnecessary EditText element with the text "SMS Notifications."
+**Recommendations**
+To improve the code, I will be using ConstraintLayout properties for a more flexible layout, reviewing design principles for better aesthetics, using descriptive IDs and text, and ensuring the layout reflects the intended functionality of each screen. Additionally, using a linter tool can help identify potential issues in the code.
+
