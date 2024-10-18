@@ -1,1 +1,1 @@
-# cs-499
+# cs-499 Computer Science Capstone
