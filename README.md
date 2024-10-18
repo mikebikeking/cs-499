@@ -51,9 +51,12 @@ The sms_notifications.xml layout also uses absolute positioning and has elements
 
 To improve the code, I will be using ConstraintLayout properties for a more flexible layout, reviewing design principles for better aesthetics, using descriptive IDs and text, and ensuring the layout reflects the intended functionality of each screen. Additionally, using a linter tool can help identify potential issues in the code.
 
+**Changes made**
+The primary challenge was linking the pages together within the app. I successfully linked the pages and implemented the login functionality. I'm currently focused on finalizing the SMS page for text alerts, as it's proving to be the most challenging aspect of the project.
+
 <img width="571" alt="Screenshot 2024-10-18 170534" src="https://github.com/user-attachments/assets/0409f420-e061-4dfe-b0fa-acfcc3491734">
 
-
+I learned that even small mistakes in the initial app design can have a significant impact.
 
 
 
