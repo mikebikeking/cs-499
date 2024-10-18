@@ -27,6 +27,8 @@ My goal is to leverage my technical skills, soft skills, and cybersecurity exper
 
 This self-assessment has allowed me to reflect on my professional journey and identify my strengths and areas for development. I am confident in my ability to succeed in the tech industry, particularly in the field of cybersecurity. I am excited about the opportunities that lie ahead and am committed to continuous learning and professional growth.
 
+
+
 **Code Review of Original Project**
 
 **AndroidManifest.xml**
@@ -48,4 +50,10 @@ The sms_notifications.xml layout also uses absolute positioning and has elements
 **Recommendations**
 
 To improve the code, I will be using ConstraintLayout properties for a more flexible layout, reviewing design principles for better aesthetics, using descriptive IDs and text, and ensuring the layout reflects the intended functionality of each screen. Additionally, using a linter tool can help identify potential issues in the code.
+
+<img width="571" alt="Screenshot 2024-10-18 170534" src="https://github.com/user-attachments/assets/0409f420-e061-4dfe-b0fa-acfcc3491734">
+
+
+
+
 
